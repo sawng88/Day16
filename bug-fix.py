@@ -9,7 +9,7 @@ option5 = sg.Radio("Birds", group_id="question1")
 option6 = sg.Radio("Dinosoar", group_id="question1")
  
 window = sg.Window("File Compressor",
-                   layout=[[label,option1, option2, option3, option4,option5,option6]])
+                   layout=[[label,option1, option2, option3, option4,option5],[option6]])
  
 window.read()
 window.close()
