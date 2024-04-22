@@ -1,7 +1,9 @@
 cut the grass
-go to gym
+ in the morninggo to gym
 clean the house
 Go to movie
 Master Python
-Play Soccer Tonight
-Go to Zoo
+Play Soccer TomorrowGo to Zoo
+Buy plantPay Bills
+Read a book
+Play golf
