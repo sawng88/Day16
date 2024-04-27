@@ -2,6 +2,8 @@ import functions
 import PySimpleGUI as sg
 import time
 
+sg.theme("Kayak")
+
 clock = sg.Text('', key='Clock')
 lable = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo", key="todo")
