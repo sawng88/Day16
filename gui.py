@@ -7,7 +7,8 @@ sg.theme("Kayak")
 clock = sg.Text('', key='Clock')
 lable = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo", key="todo")
-add_button = sg.Button("Add")
+add_button = sg.Button(image_source="add.png", mouseover_colors="LightBlue2",
+                       tooltip="Add todo", key="Add")
 List_box =sg.Listbox(values=functions.get_todos(), key='todos', 
                      enable_events=True, size=[45,10])
 edit_button = sg.Button("Edit")
